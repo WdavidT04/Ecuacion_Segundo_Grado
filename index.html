@@ -4,12 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Ecuación de Segundo Grado</title>
 </head>
 <body>
-    
+    <h1>Ecuación de Segundo Grado</h1>
+    <section>
+      <div id="contendor_analisis">
+        <h2>Definición.</h2>
+        <p>
+          Una ecuación de segundo grado​​ o ecuación cuadrática de una variable es
+          una ecuación que tiene la expresión general: donde x es la variable, y
+          a, b y c constantes; a es el coeficiente cuadrático, b el coeficiente
+          lineal y c es el término independiente.
+        </p>
+        <p  class="ecuacion">
+          <i>ax<sup>2</sup>+bx+c=0</i><br>
+        </p>
+        <p class="ecuacion2">
+          <small>Forma general de una ecuación de segundo grado</small>
+        </p>
+        <h3>Discriminante y posibles soluciones</h3>
+        <p>
+          Por comodidad, resolveremos la ecuacion de tres formas distintas segun
+          los valores de los coeficioentes b y c.
+        </p>
+        <p>
+          Se llama discriminante,&#916, a:
+        </p>
+        <p class="discriminante">
+           <i > &#916 = b <sup>2</sup>-4ac</i>
+        </p>
+      </div>
+      <p>
+        La discriminante nos permite conocer el tipo de soluciones que tiene
+        la ecuación:<br>
+      <ul>
+        <li>
+          Si &#916 > 0, hay dos soluciones reales distintas.
+        </li>
+        <li>
+          Si &#916 = 0, hay una única solucion y es real.
+        </li>
+        <li>
+          Si &#916 &lt 0, no hay soluciones reales.
+        </li>
+      </ul>
+      </p>
+      <h1>Solucionador Ecuación de segundo grado</h1>
+      <div id="contenedor_numeros">
+        <h2 align="center">
+          <input type="text" id="num1">&#183x<sup>2</sup>+
+          <input type="text" id="num2">&#183x +
+          <input type="text" id="num3"> = 0
+        </h2>
+      </div>
+      <div id="contenerdor_btn">
+        <button id="btn">Calcular</button>
+      </div>
+      <div id="contenerdor_resultado">
+        <p id="resultado"></p>
+        <p id="resultado2"></p>
+      </div>
+    </section>
+    <!--Enlace de script con html-->
 
-    <script src=""></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
